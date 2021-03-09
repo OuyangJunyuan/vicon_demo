@@ -1,0 +1,2 @@
+joy2twist-master:vicon_bridge-master:vicon_repub
+-DCATKIN_DEVEL_PREFIX=/home/zdh/vicon_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zdh/vicon_ws/install -G Unix Makefiles

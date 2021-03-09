@@ -1,0 +1,10 @@
+<launch>
+<!--	if you want to use mavros for UAV simulation, you need to publish TwistStamped, remember to-->
+<!--	set the param to TRUE-->
+
+	<arg name="use_stamped" value="true"> </arg>
+	<node pkg="vicon_repub" name="vicon_repub" type="vicon_repub" output="screen" />
+	<node pkg="rviz" name="rviz" type="rviz" args="-d $(find vicon_repub)/config/default.rviz" />
+	<include file="$(find joy2twist)/launch/xbox.launch"/>
+		
+</launch>

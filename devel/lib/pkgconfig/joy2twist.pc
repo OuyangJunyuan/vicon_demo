@@ -1,0 +1,8 @@
+prefix=/home/zdh/vicon_ws/devel
+
+Name: joy2twist
+Description: Description of joy2twist
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zdh/vicon_ws/devel/lib 
+Requires: 
